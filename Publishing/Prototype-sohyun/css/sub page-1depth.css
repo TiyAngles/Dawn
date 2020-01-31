@@ -12,6 +12,7 @@
   margin: 0 auto;
   text-align: center;
 }
+/* 헤더영역 */
 header {
   widows: 100%;
   height: 200px;
@@ -49,3 +50,187 @@ header {
   padding: 0 10px;
   background: #fa4949;
 }
+/* 헤더영역 */
+/* 네비게이션영역 */
+nav {
+  width: 100%;
+  background: #f7f6b8;
+}
+nav > h2 {
+  padding: 20px 0;
+}
+nav > ul {
+  width: 100%;
+}
+nav > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+nav > ul li {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+nav > ul li:nth-child(1) {
+  background: #f7c2ad;
+}
+nav > ul li:nth-child(2) {
+  background: #f7b199;
+}
+nav > ul li:nth-child(3) {
+  background: #f1b7b7;
+}
+nav > ul li:nth-child(4) {
+  background: #e39fa1;
+}
+nav > ul li:nth-child(5) {
+  background: #e1bec0;
+}
+/* 네비게이션영역 */
+/* 컨텐츠영역 */
+/* 기차여행 */
+section > .train {
+  background: #abf779;
+  padding-bottom: 20px;
+}
+section > .train h2 {
+  text-align: left;
+  padding: 20px;
+}
+section > .train ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section > .train ul li {
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #6ec932;
+}
+/* 맛집여행 */
+section > .food {
+  background: #42df69;
+  padding-bottom: 20px;
+}
+section > .food h2 {
+  text-align: left;
+  padding: 20px;
+}
+section > .food ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section > .food ul li {
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #34c07a;
+}
+/* 축제 */
+section > .festival {
+  background: #42dac1;
+  padding-bottom: 20px;
+}
+section > .festival h2 {
+  text-align: left;
+  padding: 20px;
+}
+section > .festival ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section > .festival ul li {
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #0b9c89;
+}
+/* 액티비티 */
+section > .activity {
+  background: #42bcda;
+  padding-bottom: 20px;
+}
+section > .activity h2 {
+  text-align: left;
+  padding: 20px;
+}
+section > .activity ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section > .activity ul li {
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #096a88;
+}
+/* 데이트 */
+section > .date {
+  background: #4277da;
+  padding-bottom: 20px;
+}
+section > .date h2 {
+  text-align: left;
+  padding: 20px;
+}
+section > .date ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section > .date ul li {
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #093188;
+}
+/* 컨텐츠영역 */
+/* 푸터영역 */
+footer {
+  background: #c26ef3;
+}
+footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+footer > p:nth-child(1) {
+  float: left;
+  width: 42%;
+  margin: 20px 0 0 30px;
+}
+footer > p:nth-child(2) {
+  float: right;
+  width: 42%;
+  margin: 20px 30px 0 0;
+}
+footer > ul {
+  width: 100%;
+}
+footer > ul li {
+  display: inline-block;
+  margin-top: 10px;
+}
+footer > h2 {
+  margin-top: 10px;
+}
+footer > h3 {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+/* 푸터영역 */
