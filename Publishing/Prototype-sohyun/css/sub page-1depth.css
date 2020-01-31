@@ -18,6 +18,7 @@ header {
   height: 200px;
   line-height: 100px;
   background: #ff9900;
+  border: 5px solid #000;
 }
 .header-nav {
   width: 100%;
@@ -55,6 +56,7 @@ header {
 nav {
   width: 100%;
   background: #f7f6b8;
+  border: 5px solid #000;
 }
 nav > h2 {
   padding: 20px 0;
@@ -90,6 +92,9 @@ nav > ul li:nth-child(5) {
 /* 네비게이션영역 */
 /* 컨텐츠영역 */
 /* 기차여행 */
+section {
+  border: 5px solid #000;
+}
 section > .train {
   background: #abf779;
   padding-bottom: 20px;
@@ -203,6 +208,7 @@ section > .date ul li {
 /* 푸터영역 */
 footer {
   background: #c26ef3;
+  border: 5px solid #000;
 }
 footer::after {
   content: "";

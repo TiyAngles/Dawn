@@ -18,6 +18,7 @@ header {
   height: 200px;
   line-height: 100px;
   background: #ff9900;
+  border: 5px solid #000;
 }
 .header-nav {
   width: 100%;
@@ -56,6 +57,7 @@ nav {
   width: 100%;
   padding: 30px 0;
   background: #ffee00;
+  border: 5px solid #000;
 }
 nav > .theme {
   width: 100%;
@@ -80,6 +82,9 @@ nav > .season {
 }
 /* 네비게이션영역 */
 /* 컨텐츠영역 */
+section {
+  border: 5px solid #000;
+}
 section > .theme-slide {
   width: 100%;
   padding: 50px 0;
@@ -99,6 +104,7 @@ section > .season-slide {
 /* 푸터영역 */
 footer {
   background: #c26ef3;
+  border: 5px solid #000;
 }
 footer::after {
   content: "";
