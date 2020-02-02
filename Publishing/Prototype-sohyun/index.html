@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>메인페이지</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/swiper.css" />
@@ -19,21 +20,25 @@
     <div id="wrapper">
       <!-- 1. header영역 -->
       <div id="header">
-        <h1><a href="#">logo</a></h1>
-        <div class="header-layout">
-          <form action="#" class="search-form">
-            <input type="search" id="searchBar" />
-            <label for="searchBar">search</label>
-          </form>
-          <!-- gnb영역 -->
-          <ul class="gnb">
-            <li>테마</li>
-            <li>지역</li>
-            <li>계절</li>
-            <li>로그인</li>
-            <li>회원가입</li>
-            <li>문의하기</li>
-          </ul>
+        <div class="header-inner">
+          <h1><a href="#">logo</a></h1>
+          <div class="header-layout">
+            <div class="search-form">
+              <form action="#">
+                <input type="search" id="searchBar" />
+                <label for="searchBar">search</label>
+              </form>
+            </div>
+            <!-- gnb영역 -->
+            <ul id="gnb">
+              <li><a href="#">테마</a></li>
+              <li><a href="#">지역</a></li>
+              <li><a href="#">계절</a></li>
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">문의하기</a></li>
+            </ul>
+          </div>
         </div>
         <!-- gnb영역 -->
       </div>
@@ -221,17 +226,29 @@
       <!-- 3. footer영역 -->
       <div id="footer">
         <ul class="terms">
-          <li>이용약관</li>
-          <li>개인정보 처리방침</li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
         </ul>
         <div class="company">
-          <h1><a href="#">logo</a></h1>
+          <h2><a href="#">logo</a></h2>
           <p>회사정보</p>
         </div>
         <ul class="sns">
-          <li><i class="fab fa-facebook-square"></i></li>
-          <li><i class="fab fa-instagram"></i></li>
-          <li><i class="fab fa-youtube"></i></li>
+          <li>
+            <a>
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
         </ul>
         <p>Copyright 2020. All rights reserved.</p>
       </div>

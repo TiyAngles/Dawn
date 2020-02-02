@@ -7,8 +7,7 @@
   box-sizing: border-box;
 }
 #wrapper {
-  max-width: 1440px;
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 /* 1.header영역 */
@@ -43,21 +42,21 @@
   float: left;
   background: #888888;
 }
-#header .gnb {
+#header #gnb {
   float: right;
   margin-left: 30px;
   border: 1px solid #000;
 }
-#header .gnb li {
+#header #gnb li {
   display: inline-block;
 }
 /* 1.header영역 */
 /* 2.content영역 */
 /* 2-1. banner-slide영역 */
-#content .banner-slide > .swiper-wrapper a:nth-child(odd) {
+#content .banner-slide > .swiper-wrapper a:nth-child(n) {
   background: #f1c9c9;
 }
-#content .banner-slide > .swiper-wrapper a:nth-child(even) {
+#content .banner-slide > .swiper-wrapper a:nth-child(2n) {
   background: #ececae;
 }
 #content .banner-slide > .swiper-wrapper .swiper-slide {
@@ -181,7 +180,7 @@
   display: inline-block;
   margin-left: 20px;
 }
-#footer .sns li i {
+#footer .sns li a i {
   font-size: 18px;
 }
 #footer > p {
