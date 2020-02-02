@@ -79,7 +79,7 @@ const Wrapper = styled.div`
   text-align: center;
 
   header {
-    widows: 100%;
+    width: 100%;
     height: 200px;
     line-height: 100px;
   }
