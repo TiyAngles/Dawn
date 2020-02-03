@@ -7,187 +7,283 @@
   box-sizing: border-box;
 }
 #wrapper {
-  max-width: 1440px;
-  width: 1440px;
+  max-width: 375px;
+  width: 375px;
   margin: 0 auto;
-}
-/* 1.header영역 */
-#header {
-  background: #282828;
-}
-#header::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-#header h1 {
-  float: left;
-  width: 100px;
-  height: 50px;
   text-align: center;
-  line-height: 50px;
-  background: #919191;
 }
-#header .header-layout {
-  float: right;
-  height: 50px;
-  line-height: 50px;
-  background: #ccc;
-}
-#header .header-layout::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-#header .search-form {
-  float: left;
-  background: #888888;
-}
-#header .gnb {
-  float: right;
-  margin-left: 30px;
-  border: 1px solid #000;
-}
-#header .gnb li {
-  display: inline-block;
-}
-/* 1.header영역 */
-/* 2.content영역 */
-/* 2-1. banner-slide영역 */
-#content .banner-slide > .swiper-wrapper a:nth-child(odd) {
-  background: #f1c9c9;
-}
-#content .banner-slide > .swiper-wrapper a:nth-child(even) {
-  background: #ececae;
-}
-#content .banner-slide > .swiper-wrapper .swiper-slide {
-  width: 100%;
-  height: 300px;
-  text-align: center;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 300px;
-}
-/* 2-1. banner-slide영역 */
-/* 2-2. travel form영역 */
-#content .trv-form {
-  background: #6b6b6b;
-}
-#content .trv-form input {
-  width: 80%;
-  height: 50px;
-}
-/* 2-2. travel form영역 */
-/* 2-3. travel choice영역 */
-#content .trv-choice::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-#content .trv-choice h2 {
-  height: 40px;
-  font-size: 20px;
-  line-height: 40px;
-  background: #acacac;
-}
-#content .trv-choice > a {
-  display: block;
-  float: left;
-  width: 33.33%;
-  height: 100px;
-  text-align: center;
+header {
+  widows: 100%;
+  height: 200px;
   line-height: 100px;
+  background: #ff9900;
 }
-#content .trv-choice .theme {
-  background: #9ccaf0;
+.header-nav {
+  width: 100%;
+  height: 60px;
+  background: #a30000;
+  line-height: 60px;
 }
-#content .trv-choice .area {
-  background: #84beee;
-}
-#content .trv-choice .season {
-  background: #65b0ee;
-}
-/* 2-3. travel choice영역 */
-/* 2-4. hot place영역 */
-#content .hot-place h2 {
-  height: 40px;
-  font-size: 20px;
-  line-height: 40px;
-  background: #acacac;
-}
-/* hp-슬라이드영역 */
-#content .hp-slide > .swiper-wrapper .swiper-slide .slide-margin {
-  margin-left: 100px;
-}
-#content .hp-slide > .swiper-wrapper .swiper-slide .slide-margin a {
-  display: block;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 300px;
-  background-color: #a3c6d6;
-}
-/* hp-info 영역 */
-#content .hp-slide > .swiper-wrapper .swiper-slide .slide-margin .hp-info {
-  margin-top: 50px;
-}
-#content .hp-slide > .swiper-wrapper .swiper-slide .slide-margin .hp-info li {
-  margin-bottom: 10px;
-}
-/* 2-4. hot place영역 */
-/* 3. footer영역 */
-#footer {
-  margin-top: 50px;
-}
-#footer .terms {
-  background: #ccc;
-}
-#footer .terms li {
-  display: inline-block;
-  margin-left: 20px;
-}
-#footer .company {
-  background: #b1b1b1;
-  height: 40px;
-  line-height: 40px;
-}
-#footer .company::after {
-  content: "";
+.header-nav::after {
+  content: '';
   display: block;
   clear: both;
 }
-#footer .company h1 {
+.header-nav > h1 {
   float: left;
-  width: 50px;
-  margin-left: 20px;
-  text-align: center;
-  background: #686868;
+  width: 30%;
+  background: #ffadad;
 }
-#footer .company p {
+.header-nav > .icon {
+  float: right;
+}
+.header-nav > .icon > div {
   float: left;
-  width: 200px;
-  margin-left: 20px;
-  text-align: center;
-  background: #4e4e4e;
 }
-#footer .sns {
-  height: 50px;
-  line-height: 50px;
-  background: #9e9e9e;
+.header-nav > .icon .search-icon {
+  padding: 0 5px;
+  background: #ff8e8e;
 }
-#footer .sns li {
+.header-nav > .icon .ham-icon {
+  margin-left: 10px;
+  padding: 0 10px;
+  background: #fa4949;
+}
+nav {
+  width: 100%;
+  padding: 30px 0;
+  background: #ffee00;
+}
+nav > .theme {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 10px;
+  background: #95f100;
+}
+nav > .area {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 10px;
+  background: #34d603;
+}
+nav > .season {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 10px;
+  background: #00c030;
+}
+section > .theme-slide {
+  width: 100%;
+  padding: 50px 0;
+  background: #46dbf5;
+}
+section > .area-slide {
+  width: 100%;
+  padding: 50px 0;
+  background: #46a6f5;
+}
+section > .season-slide {
+  width: 100%;
+  padding: 50px 0;
+  background: #468cf5;
+}
+footer {
+  background: #c26ef3;
+}
+footer::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer > p:nth-child(1) {
+  float: left;
+  width: 42%;
+  margin: 20px 0 0 30px;
+}
+footer > p:nth-child(2) {
+  float: right;
+  width: 42%;
+  margin: 20px 30px 0 0;
+}
+footer > ul {
+  width: 100%;
+}
+footer > ul li {
   display: inline-block;
-  margin-left: 20px;
+  margin-top: 10px;
 }
-#footer .sns li i {
-  font-size: 18px;
+footer > h2 {
+  margin-top: 10px;
 }
-#footer > p {
-  height: 30px;
-  padding-left: 20px;
-  line-height: 30px;
-  background: #5e5e5e;
+footer > h3 {
+  margin-top: 10px;
+  padding-bottom: 20px;
 }
-/* 3. footer영역 */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* body에 폰트 속성,배경 속성, 글자 행간 속성 설정*/
+body {
+  line-height: 1;
+}
+/* CSS 초기화*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+/* html5 요소들을 IE 구버전에서 정상적으로 작동되도록 설정*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* body 폰트 스타일*/
+body {
+  line-height: 1;
+}
+
+/* list 관련 속성*/
+nav ul,
+li {
+  list-style: none;
+}
+/* a 요소*/
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  text-decoration: none;
+  background: transparent;
+  color: inherit;
+}
+/* img 요소*/
+img {
+  vertical-align: top;
+  text-decoration: none;
+}
+/* hr 요소 : width->가로길이, color->색상, noshade->입체감 없애고 평평한 상태로 보여줌*/
+hr {
+  display: block;
+  height: 2px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+/*폼요소 스타일추가*/
+
+input,
+textarea {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+}
+
+/*input요소 사파리에서 스타일이 정상적으로 보이기 위한 CSS*/
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+/*플롯해제*/
+.cf:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/*IE 8이하 버전에 float해제*/
+.clear_both {
+  zoom: 1;
+}

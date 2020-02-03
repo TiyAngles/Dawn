@@ -133,6 +133,18 @@ hr {
   border: 0;
   outline: 0;
 }
+/*폼요소 스타일추가*/
+
+input,
+textarea {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+}
+
 /*input요소 사파리에서 스타일이 정상적으로 보이기 위한 CSS*/
 input,
 textarea,
