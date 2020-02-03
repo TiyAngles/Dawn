@@ -18,7 +18,16 @@ $(document).ready(function() {
     }
   });
   var hpSlide = new Swiper(".hp-slide", {
-    slidesPerView: 3, // 동시에 보여줄 슬라이드 갯수
-    centeredSlides: 0 //카드슬라이드옵션
+    loop: true,
+    slidesPerView: 4, // 동시에 보여줄 슬라이드 갯수
+    spaceBetween: 100, // 슬라이드간 간격
+    centeredSlides: 0, //카드슬라이드옵션
+    breakpointsInverse: true,
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 100
+      }
+    }
   });
 });

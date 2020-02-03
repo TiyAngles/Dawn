@@ -14,7 +14,7 @@
 #header {
   background: #282828;
 }
-#header::after {
+#header .header-inner::after {
   content: " ";
   display: block;
   clear: both;
@@ -41,22 +41,29 @@
 #header .search-form {
   float: left;
   background: #888888;
+  width: 180px;
 }
-#header #gnb {
-  float: right;
-  margin-left: 30px;
+#header .search-form input[id="searchBar"] {
+  width: 50%;
+}
+
+#header .gnbmenu {
+  float: left;
+  margin-left: 10px;
   border: 1px solid #000;
 }
-#header #gnb li {
+
+#header .gnbmenu #gnb li {
   display: inline-block;
 }
 /* 1.header영역 */
+
 /* 2.content영역 */
 /* 2-1. banner-slide영역 */
-#content .banner-slide > .swiper-wrapper a:nth-child(n) {
+#content .banner-slide > .swiper-wrapper a:nth-child(2n) {
   background: #f1c9c9;
 }
-#content .banner-slide > .swiper-wrapper a:nth-child(2n) {
+#content .banner-slide > .swiper-wrapper a:nth-child(2n-1) {
   background: #ececae;
 }
 #content .banner-slide > .swiper-wrapper .swiper-slide {
@@ -157,7 +164,7 @@
   display: block;
   clear: both;
 }
-#footer .company h1 {
+#footer .company h2 {
   float: left;
   width: 50px;
   margin-left: 20px;
