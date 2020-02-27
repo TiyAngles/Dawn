@@ -386,4 +386,5 @@ The image will be downloaded
 
 .yarn-integrity
 
-.generated
+Back/generated/
+Back/prisma.yml
