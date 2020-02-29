@@ -295,16 +295,9 @@
     font-size:30px;
 }
 
-
-
-
-
-
-
-
-
-
-
+.main-places>.inner>div {
+    padding: 0 20px;
+}
 /* main-like */
 .main-like{padding-bottom:60px;}
 
